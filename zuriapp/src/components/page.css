@@ -1,0 +1,156 @@
+#heads{
+    margin-left: 2em;
+}
+#header2{
+    display: flex;
+    width: 100%;
+    margin-left: 2em;
+}
+#middles{
+    display: flex;
+    position: relative; left: 20%; bottom: 1em;
+    width: 70%;
+}
+#midpara{
+    padding-right: 4em;
+    cursor: pointer;
+}
+#header2{
+    position: relative; left: 7%;
+}
+#headpar{
+    padding-right: 3em;
+    cursor: pointer;
+    margin-top: 3em;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+#mid{
+    margin-top: 3em;
+}
+#butn{
+    margin-left: 11%;
+    margin-top: 1em;
+    width: 9em;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    background-color: hsl(319,65%,38%);
+    height: 2.5em;
+    cursor: pointer;
+}
+#modal{
+    margin-left: 5em;
+}
+select{
+    appearance: none;
+    width: 8em;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    height: 2em;
+    border-radius: 0.3em;
+    margin-top: 3.5%;
+    border: solid 1px grey;
+    cursor: pointer;
+}
+option{
+    position: relative; left: 3em;
+}
+select:focus{
+    outline: solid 1px grey;
+    border: none;
+}
+#set{
+    visibility: visible;
+}
+#input{
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable;
+    background: url(./assets/setting-5.png) no-repeat right white;
+}
+#mid{
+    display: flex;
+    justify-content: center;
+    position: relative; right: 2%;
+}
+#frame{
+  width: 65em;
+  margin-bottom: 3em; 
+  margin-left: 7em;
+  margin-top: 3em;
+
+}
+#tablet{
+    display: none;
+}
+
+
+@media  screen and (max-width: 1250px){
+    #desktop{
+        display: none;
+    }
+    #headpar{
+        width: 1%;
+    }
+    #tablet{
+        display: block;
+        margin-left: 5em;
+        margin-top: 2em;
+    }
+    #row{
+        display: flex;
+    }
+    #tab{
+        width: 10em;
+    }
+    #tab2{
+        width: 10em;
+        margin-left: 1.5em;
+    }
+    #foot1{
+        margin-left: 1em;
+        margin-top: -2em;
+    }
+    #foot2{
+        position: relative; left: -8em;
+        margin-top: -1em;
+    }
+    #foot3{
+        position: relative; left: -10em;
+        margin-top: -1em;
+    }
+    #foot4{
+        position: relative; left: -27em;
+        margin-top: -1em;
+    }
+    #footpar{
+        width: 20em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #desktop{
+        display: none;
+    }
+    #row{
+        display: block !important;
+       
+    }
+    #tab{
+        width: 17em;
+    }
+    #tab2{
+        width: 17em;
+    }
+    #row2{
+        margin-left: -1.5em;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    #tablet{
+        display: block;
+        margin-left: 3.5em;
+    }
+}
