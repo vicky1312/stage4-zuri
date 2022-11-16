@@ -7,8 +7,11 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element = {<Main />} />
-        <Route path="/page" element = {<Page />} />
+        <Route path="/">
+          <Route index element={<Main/>}/>
+          <Route path="page" element={<Page />} />
+        </Route>
+        <Route path='*' element={<Main/>}/>
       </Routes>
     </Router>
 
